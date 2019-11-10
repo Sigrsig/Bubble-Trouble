@@ -1,0 +1,15 @@
+{
+  "name": "bubbletrouble",
+  "version": "0.0.1",
+  "description": "The game Bubble Trouble with extra twists",
+  "main": "src/index.html",
+  "scripts": {
+    "watch": "node watch.js"
+  },
+  "author": "Elvar (eas20@hi.is)",
+  "license": "UNLICENSED",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "latest"
+  }
+}

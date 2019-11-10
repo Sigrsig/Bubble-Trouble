@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Now your bubbles are in trouble</title>
+  </head>
+  <body>
+
+	<canvas id="myCanvas" width="1000" height="600" style="border: 1px solid black;">
+  	Sorry, but your browser does not support the HTML5 canvas tag.
+	</canvas>
+
+    <div id="output"></div> 
+
+    <audio id="gameOver">
+      <source src="sounds/gameOver.wav" type="audio/wav" />
+      </audio>
+    <audio id="gameWin">
+      <source src="sounds/win.wav" type="audio/wav" />
+      </audio>
+    <audio id="powerUp">
+      <source src="sounds/powerUp.wav" type="audio/wav" />
+      </audio>
+      <audio id="levelUp">
+        <source src="sounds/levelUp.wav" type="audio/wav" />
+        </audio>
+    <audio id="gameSong">
+      <source src="sounds/gameSong.wav" type="audio/wav" />
+      </audio>
+
+    <script src="js/globals.js"></script>
+    <script src="js/consts.js"></script>
+    <script src="js/util.js"></script> 
+    <script src="js/keys.js"></script> 
+    <script src="js/handleMouse.js"></script>
+    
+    <script src="js/levels.js"></script>
+    <script src="js/spatialManager.js"></script> 
+    <script src="js/entityManager.js"></script> 
+
+    <script src="js/entities/Sprite.js"></script> 
+    <script src="js/entities/Entity.js"></script> 
+    
+    <script src="js/entities/Player.js"></script> 
+    <script src="js/entities/Ball.js"></script> 
+    <script src="js/entities/Bullet.js"></script> 
+    <script src="js/entities/Brick.js"></script>
+    <script src="js/entities/PowerUp.js"></script>
+
+    <script src="js/render.js"></script>
+    <script src="js/update.js"></script> 
+    
+    <script src="js/imagesPreload.js"></script> 
+    <script src="js/main.js"></script> 
+    
+    <script src="js/menu.js"></script>
+    <script src="js/BUBBLETROUBLE.js"></script>
+    
+  </body>
+</html>
